@@ -1,12 +1,16 @@
+package caio.aulas;
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
         double salarioMinimo = 2500;
+          System.out.println(salarioMinimo);
 
         String meuNome = "Caio Nunes Primo"; //texto
+          System.out.println(meuNome);
 
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal;
+          System.out.println(numeroCurto2);
 
         int numero = 1;
          
@@ -15,6 +19,7 @@ public class TiposVariaveis {
         System.out.println(numero);
 
         final double VALOR_DE_PI = 3.14; //variavel está em caixa alta(todo maisculo)
+          System.out.println(VALOR_DE_PI);
 
         //VALOR_DE_PI = 10; (false)
         //"VALOR_DE_PI" não é mais uma variavel, mas uma constante, ou seja, seu valor não muda
